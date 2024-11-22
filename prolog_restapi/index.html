@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Theory DA - 22BCE2001</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Eligibility Checker</h1>
+        <p class="subtitle">AI Theory Assignment by Sashank Ravipati (22BCE2001)</p>
+        <div>
+            <label for="studentID">Enter Student ID:</label>
+            <input type="number" id="studentID" placeholder="e.g., 15" required>
+            <button onclick="checkEligibility()">Check</button>
+        </div>
+        <div id="results" class="embed-card">
+            <p id="studentIDDisplay"></p>
+            <p id="studentCGPADisplay"></p>
+            <p id="studentAttendanceDisplay"></p>
+            <p id="scholarshipStatus" class="status"></p>
+            <p id="examPermissionStatus" class="status"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
